@@ -1,0 +1,187 @@
+body { 
+  background: url(images/background-kosik.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Navigacia */
+#mainNav {
+  background-color:transparent;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  color: black;
+ }
+ #mainNav.solid{
+  background-color:#1099dd;
+  
+}
+#mainNav.solid div a{
+  color: white;
+}
+#mainNav.solid div a.dropdown-item{
+  color: black;
+  font-size: 11px;
+}
+#mainNav div a:hover{
+  color: green;
+}
+#mainNav.solid div a:hover{
+  color: green;
+}
+#mainNav div a{
+  color:black;
+  text-transform: uppercase;
+  }
+  
+#myNavbar ul li a{
+  background-color:transparent;
+  letter-spacing: 2px;
+  color:black;
+  font-family: 'Roboto Slab', serif;
+} 
+
+#myNavbar ul li a:hover{
+  color: green;
+}
+
+#logo{
+  
+  letter-spacing: 5px;
+   }
+#logo:hover{
+  color: green;
+}
+.navbar-brand{
+  font-size: 22px;
+}
+
+#logo:hover{
+ color: green;
+
+}
+
+#inputsearch{
+  margin-top: 2%;
+}
+#pocitadlo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #ff3300;
+  color: white;
+  text-align: center;
+  
+} 
+
+
+
+/* Section produkty */
+section div{
+    padding-left: none;
+    padding-right: none;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+article{
+    margin-bottom: 15%;
+    
+}
+
+
+input:focus{
+    outline: none;
+    border: none;
+    background-color:rgb(248, 248, 157) ;
+}
+
+
+
+section article{
+    background-color:white;
+    border-radius: 4%;
+    border: solid 4px grey;
+}
+hr{
+    width: 80%;
+    border-color: #ff3300;
+}
+
+
+
+section div button.btn{
+    margin: 4% 2%;
+    
+
+}
+section article h2{
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 0;
+    
+}
+section article h3{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+.btn:focus{
+    outline: none;
+    border: none;
+}
+.btn:active{
+    outline: none;
+    border: none;
+}
+
+ /* Media Header,Topprodukty max-width: 990px */
+ @media only screen and (max-width: 990px){
+  #myNavbar ul li a{
+    letter-spacing: 0;
+  } 
+
+ }
+  /* Media Header,Topprodukty max-width: 800px */
+  @media only screen and (max-width: 880px) {
+      section div {
+          margin-top: 3%;
+      }
+  
+  /* Media Header,Topprodukty max-width: 660px */
+  @media only screen and (max-width: 660px) {
+    section div {
+        margin-top: 6%;
+    }
+}
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+  }
+  
+.zoom:hover{
+   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   box-shadow: 5px 10px 8px #888888;
+  }
+  
+.zoom1:hover{
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 3px 7px 5px #888888;
+    color: blue;
+    border: none; 
+    
+
+  }
+
+.zoom2:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    box-shadow: 3px 7px 5px #888888;
+    color:  #ff3300;
+    border: none;
+    
+    
+  }
+
+  

@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Moj E-shop</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Custom Css -->
+<link rel="stylesheet" type="text/css" href="myStyles.css">
+
+
+
+  </head>
+
+  <body>
+     <!-- Navigation -->
+	 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand" href="eshop.html">Wint-eshop</a>
+          </div>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#topprodukty">Top produkty</a></li>
+			<li class="active"><a href="produkty.html">Produkty</a></li>
+			<li class="active" style="padding-right: 20px;"><a href="kosik.html" style="padding-top: 13px;"><i class="fa fa-shopping-cart fa-1x" aria-hidden="true"></i><span id="pocitadlo"></span></a></li>
+			  <li class="active"><a href="#kontakt">Kontakt</a></li>
+              <li>
+                <form style="display:inline-flex; padding-top: 2%;" class="form-inline">
+        
+                </form> 
+              </li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+
+    <!-- Header-->
+	<header>
+	
+	<div class="container-fluid" id="header">
+		<div class="row">
+		   <div id="popis">
+			
+				<h2 class="clasa">
+					<span>W</span>
+					<span>i</span>
+					<span>n</span>
+					<span>t</span>
+					<span>-</span>
+					<span>E</span>
+					<span>s</span>
+					<span>h</span>
+					<span>o</span>
+					<span>p</span>
+				</h2>
+		
+			
+				<h3>~ Milujeme zimné športy ~</h3>
+			 
+			</div>
+		
+			<div id="headerimg">
+				<img src="images/background2.jpg"  alt="background1" width="100%">
+			</div>
+		</div>
+			
+		</div> 
+		
+	   
+	</div>
+
+    </header>
+
+    <!-- Top Produkts-->
+    <section id="topprodukty">
+		<h1>Top produkty</h1>
+		<hr style="width: 80%; border-width: 2px;">
+	    <div class="container">
+	      <div class="row">
+		  <div id="slider" class="carousel slide" data-ride="carousel">
+		  
+
+          <!-- Wrapper for slides -->
+		  <div class="carousel-inner" role="listbox">
+			  <!-- Slide 1 -->
+			<div class="item active">
+			  <div class="row">
+			    <div id="slid1" class="col-sm-5 col-sm-offset-1 text-center">
+			      <h2></h2>
+				  <h3></h3>
+				  <hr>
+				  <p>Najpredávanejsi produkt</p>
+				  <button idproduktu=1 class="btn btn-default btn3">Viac... <i class="fa fa-info-circle" aria-hidden="true"></i></button>
+				  <br>
+				  <button idproduktu=1 class="btn btn-default btn4" type="submit">Pridaj do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+				
+			    </div>
+			      
+			        <div class="col-sm-5">
+					  <img id="img1" src="" alt="Slider 1" />
+				   </div>
+			   </div>
+			 </div>
+
+			<!-- Slide 2 -->
+			<div class="item">
+			<div class="row">
+
+			    <div class="col-sm-4 col-sm-offset-1 ">
+				  <img id="img2" src="" alt="Slider 2"  />
+				</div>
+
+				<div id="slid2" class="col-sm-5 text-center">
+			      <h2></h2>
+				  <h3></h3>
+				  <hr>
+				  <p>Najnovší produkt</p>
+				  <button idproduktu=2 class="btn btn-default btn3">Viac... <i class="fa fa-info-circle" aria-hidden="true"></i></button>
+				  <br>
+				  <button idproduktu=2 class="btn btn-default btn4">Pridaj do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+			    </div>
+			</div>
+		  </div>
+
+          <!-- Slide 3 -->
+		  <div class="item">
+			<div class="row">
+			  <div id="slid3" class="col-sm-5 col-sm-offset-1 text-center">
+				<h2></h2>
+				<h3></h3>
+				<hr>
+				<p>Najlacnejší produkt</p>
+				<button idproduktu=3 class="btn btn-default btn3">Viac... <i class="fa fa-info-circle" aria-hidden="true"></i></button>
+				<br>
+				<button idproduktu=3 class="btn btn-default btn4" >Pridaj do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+			  </div>
+				
+				  <div class="col-sm-5 ">
+					<img id="img3" src="" alt="Slider 3"/>
+			      </div>
+			 </div>
+		   </div>
+
+		
+          <!-- Slide 4 -->
+		  <div class="item">
+			<div class="row">
+
+			    <div class="col-sm-4 col-sm-offset-1  ">
+				  <img id="img4" src="" alt="Slider 4"/>
+				</div>
+				
+				<div id="slid4" class="col-sm-5 text-center">
+			      <h2></h2>
+				  <h3></h3>
+				  <hr>
+				  <p class="animated bounceInLeft">Najdrahší produkt</p>
+				  <button idproduktu=4 class="btn btn-default btn3">Viac... <i class="fa fa-info-circle" aria-hidden="true"></i></button>
+				  <br>
+				  <button idproduktu=4 class="btn btn-default btn4">Pridaj do <span class="glyphicon glyphicon-shopping-cart"></span></button>
+				
+			    </div>
+			</div>
+		  </div>
+		  </div>
+		
+		  <!-- Controls -->
+		  <a class="left carousel-control" href="#slider" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="right carousel-control" href="#slider" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+		
+		</div>
+		</div>
+	</div>
+	</section>
+
+	 <!-- Contact Section -->
+	 <section id="kontakt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Kontakt</h1>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <form id="myForm1" name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Meno</label>
+                                <input type="text" class="form-control" name="meno" placeholder="Meno" id="name" required data-validation-required-message="Vložte meno.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email</label>
+                                <input type="email" class="form-control" name="email" placeholder="Email" id="email" required data-validation-required-message="Vložte email.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Telefón</label>
+                                <input type="tel" class="form-control" name="telefon" placeholder="Telefón" id="phone" required data-validation-required-message="Vložte telefón.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Správa</label>
+                                <textarea rows="5" class="form-control" name="sprava" placeholder="Správa" id="message" required data-validation-required-message="Vložte správu."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button id="odoslat" type="submit" class="btn btn-success btn-lg">Odoslať</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+	<div id="footer">
+	    <div class="container">
+	      <div id="footerTop" class="row">
+		  <a href="#header"><img src="images/logo1.jpg"  alt="Logo" class="img-responsive" style="margin: auto;" /></a>
+			<p>
+            Wint-eshop, ul. Bratislavská 458/135, 101 10 Bratislava 4, Slovensko, EÚ<br />
+            + 421 994 989 655, info@wint-eshop.sk
+          </p>
+		
+		  <div class="input-group col-md-4 col-md-offset-4">
+						<span class="input-group-addon">
+              <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+            </span>
+						<input type="text" class="form-control" placeholder="Prihlásenie na odber noviniek..."  />
+						<span class="input-group-btn">
+              <button class="btn btn-default" data-toggle="modal" data-target="#mySubscriptionModal">Prihlásiť!</button>
+            </span>
+					</div>
+				</div> 
+
+			
+			<div id="footerBottom" class="row">
+					
+
+			<!-- Nav tabs -->
+            <ul class="navbar navbar-text nav-justified " style="text-align:center;padding: 0; margin:1% 0;font-size: 15px;" role="tablist">
+              <li role="presentation" ><a href="#tab1" aria-controls="home" role="tab" data-toggle="tab">O nás</a></li>
+              <li role="presentation"><a href="#tab2" aria-controls="profile" role="tab" data-toggle="tab">História</a></li>
+              <li role="presentation"><a href="#tab3" aria-controls="profile" role="tab" data-toggle="tab">Záruka</a></li>
+              <li role="presentation"><a href="#tab4" aria-controls="profile" role="tab" data-toggle="tab">Kariéra</a></li>
+              <li role="presentation"><a href="#tab5" aria-controls="profile" role="tab" data-toggle="tab">Spolupráca</a></li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content ">
+              <div role="tabpanel" class="tab-pane active" id="tab1">
+                Sme kreatívna firma zaoberajúca sa predajom toho najkvalitnejšieho športového náradia.
+              </div>
+              <div role="tabpanel" class="tab-pane" id="tab2">
+                Na trhu pôsobíme už 10 rokov. Začali sme ako malá rodinná firma, ale dnes už zamestnávame 1000 ľudí po celom Slovensku.
+              </div>
+              <div role="tabpanel" class="tab-pane" id="tab3">
+                Vážime si našich zákazníkov a preto Vám prinášame exkluzívnu ponuku vrátenia tovaru bez udania tovaru až do 30 dní od nákupu.
+              </div>
+              <div role="tabpanel" class="tab-pane" id="tab4">
+                Ak hľadáte zamestnanie a bavia Vás zimné športy , tak nám zašlite životopis na e-mail <a href="wint-eshop.job@gmail.com">job@wint-eshop.sk</a>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="tab5">
+                Naša distribučná sieť je po celom Slovensku a sme otvorení spolupráci s firmami alebo živnostníkmi podobného zamerania. Volajte +421 887 788 565.
+              </div>
+            </div>
+
+						<hr>
+						<p style="text-align: center; margin-bottom: 1%;">&copy; 2021 Wint-eshop</p>
+					</div>
+				
+			</div>
+		</div>
+		
+		<!-- Popup footer form -->
+		<div id="mySubscriptionModal" class="modal fade" tabindex="-1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title">Potvrdenie</h4>
+					</div>
+					<div class="modal-body">
+						<div class="alert alert-success alert-dismissible" role="alert">
+							<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<strong>Ďakujeme!</strong> Váš e-mail sme prijali na odber noviniek.
+						</div>
+						<p>V prípade, že si už nebudete želať odoberať novinky, tak ich odber si môžete vypnúť v administrácii.</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Zavrieť</button>
+					</div>
+				</div><!-- /.modal-content -->
+			</div><!-- /.modal-dialog -->
+		</div><!-- /.modal -->
+		<script>
+		$(document).ready(function() {
+			// Transition effect for navbar 
+			$(window).scroll(function() {
+			  // checks if window is scrolled more than 500px, adds/removes solid class
+			  if($(this).scrollTop() > 50) { 
+				  $('#mainNav').addClass('solid');
+			  } else {
+				  $('#mainNav').removeClass('solid');
+			  }
+			});
+	});
+    </script>
+	<script>
+		function myFunction() {
+		  var kosik = localStorage.getItem("produkty");
+		  document.getElementById("demo").innerHTML = fruits.length;
+		}
+		</script>
+  <script src="myScript_eshop.js"></script>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  
+  </body>
+</html>

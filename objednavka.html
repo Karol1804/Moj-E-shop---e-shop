@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Objednávkový formulár</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<!-- Google fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<!-- Custom Css -->
+<link rel="stylesheet" type="text/css" href="objednavka.css">
+
+
+  </head>
+  <body>
+    
+         <!-- Navigation -->
+     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a id="logo" class="navbar-brand" href="eshop.html">Wint-eshop</a>
+          </div>
+        
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="produkty.html">Produkty</a></li>
+              <li class="active"><a href="kosik.html"><span class="glyphicon glyphicon-shopping-cart"></span><span id="pocitadlo"></span></a></li>
+          </div>
+    
+      </div>
+      </nav>
+
+  
+    <article class="container" style="margin: 8% auto; width:60% ;">
+      <div clas="row">
+        
+        <form id="myForm" action="" method="GET">
+          <h2 style="text-align: center;">Objednávkový formulár</h2>
+          <div class="form-row">
+            <div class="col-md-6 form1">
+              <label for="validationServer01">Meno:</label> 
+              <input type="text" name="Meno" class="form-control is-valid" id="validationServer01" placeholder="Meno" value="" required>
+              <div class="valid-feedback"></div>
+            </div>
+            <div class="col-md-6 form1">
+              <label for="validationServer02">Priezvisko:</label>
+              <input type="text" name="Priezvisko" class="form-control is-valid" id="validationServer02" placeholder="Priezvisko" value="" required>
+              <div class="valid-feedback"></div>
+            </div>
+          </div>
+
+        <div class="form-row">
+          <div class="col-md-6 form1">
+            <label for="validationServer03">Telefon:</label>
+            <input type="text" name="Telefon" class="form-control is-invalid" id="validationServer03" placeholder="Telefon" required>
+            <div class="invalid-feedback"></div>
+          </div>
+          <div class="col-md-6 form1">
+            <label for="validationServer04">Email:</label>
+            <input type="text"name="Email" class="form-control is-invalid" id="validationServer04" placeholder="@" required>
+            <div class="invalid-feedback"></div>
+          </div>
+        </div>
+
+        <div class="form-row ">
+          <div class="col-md-4 col-sm-4 col-xs-12 form5">
+            <label for="validationServer06">Adresa:</label> 
+            <input type="text"name="Mesto/Obec" class="form-control is-valid" id="validationServer01" placeholder="Mesto/Obec" value="" required>
+            <div class="valid-feedback"></div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12  form5">
+            <label for="validationServer06"></label>
+            <input type="text" name="Ulica" class="form-control is-valid" id="validationServer02" placeholder="Ulica" value="" required>
+            <div class="valid-feedback"></div>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12 form5">
+            <label for="validationServer06"></label>
+            <input type="text" name="ČD" class="form-control is-valid" id="validationServer02" placeholder="ČD" value="" required>
+            <div class="valid-feedback"></div>
+          </div>
+          <div class="col-md-2 col-sm-2 col-xs-12 form5" >
+            <label for="validationServer06"></label>
+            <input type="text" name="PSČ" class="form-control is-valid" id="validationServer02" placeholder="PSČ" value="" required>
+            <div class="valid-feedback"></div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-12 form4" style="margin: 2% 0;">
+            <label for="validationServer06">Sprava:</label> 
+            <textarea type="text" name="sprava" class="form-control is-valid" id="validationServer01" placeholder="Sem môžete napísať vašu správu....." value="" rows="5"></textarea>
+            <div class="valid-feedback"></div>
+          </div>
+        </div> 
+
+         <h3 style="text-align:center">Košík</h3>
+
+        <div class="form-row">
+        <label class="form-check-label" for="invalidCheck1"></label>
+          <div class="col-md-12" style="margin:1% 0;">
+            <div id="kosik2">
+              <table id="tabulka2">
+                <th>#</th>
+                <th>Názov</th>
+                <th> Počet</th>
+                <th> Cena</th>
+                <th> Zmazať</th>
+              </table>
+            </div>
+          </div> 
+        </div>
+
+        <div class="form-row">
+          <div class="col-md-6 col-sm-6" style="margin: 3% 0;">
+            <label>BezDPH: </label><input id="spoluBezDph" type="text" readonly>
+          </div>
+          <div class="col-md-6 col-sm-6" style="margin: 3% 0;">
+            <label>SPOLU: </label><input id="spolu" type="text" readonly><br>
+          </div>
+        </div>
+        
+
+        <div class="form-row">
+          <div class="form-check col-md-4 " style="margin:3% 0;">
+            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+            <label class="form-check-label" for="invalidCheck3">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+
+          <div class="form-check col-md-4 " style="margin:3% 0 ;text-align: center;">
+              <button id="button1" class="btn btn-primary " style="margin-top: 2%;padding-top: 1%;" type="submit">Odoslať objednávku</button>
+          </div>
+          <div class="form-check col-md-4 " style="margin:3% 0 ; text-align: right;">
+             <button id="button4" class="btn btn-warning " style="margin-top: 2%;" type="submit">Zmazať</button>
+          </div>
+        </div>
+     </form>
+     </div>
+    </article>
+    
+
+        <script src="myScript_objednavka.js"></script>
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+    
+  </body>
+  </html>

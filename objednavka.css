@@ -1,0 +1,153 @@
+body { 
+  background: url(images/background-objednavka.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/* Objednavka.html */
+article{
+  background-color: rgb(216, 214, 214);
+  border: solid 0px rgb(216, 214, 214);
+   
+}
+/* Navigacia */
+#mainNav {
+  background-color:transparent;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  background-color:#1099dd;
+ }
+
+
+#mainNav.solid div a:hover{
+  color: green;
+  
+}
+#mainNav div a{
+  color:white;
+  text-transform: uppercase;
+  }
+  
+#myNavbar ul li a{
+  background-color:transparent;
+  letter-spacing: 2px;
+} 
+
+#myNavbar ul li a:hover{
+  color: green;
+}
+
+#logo{
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 5px;
+   }
+#logo:hover{
+  color: green;
+}
+.navbar-brand{
+  font-size: 22px;
+}
+
+#logo:hover{
+ color: green;
+
+}
+#pocitadlo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #ff3300;
+  color: white;
+  text-align: center;
+  
+} 
+article{
+  border:solid 4px gray;
+  border-radius: 8px;
+}
+/* Kosik,tabulka*/
+div table{
+  background-color:  white;
+  width: 100%;
+  border-radius: 6px;
+  text-align: center;
+}
+#tabulka2 th {
+  padding: 1%;
+  text-align: center;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+
+.zoom4 {
+  box-shadow: 8px 12px 8px #616060;
+  border: none; 
+} 
+.form1{
+  display: inline-flex;
+  font-size: 14px;
+  width: 50%;
+  margin-top: 1%;
+}
+.form2{
+  display: inline-flex;
+  font-size: 14px;
+  width: 10%;
+  margin-top: 1%;
+}
+.form3{
+  display: inline-flex;
+  font-size: 14px;
+  width: 20%;
+  margin-top: 1%;
+}
+
+.form4{
+  display: inline-flex;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 2%;
+}
+.form5{
+  display: inline-flex;
+  font-size: 14px;
+  margin-top: 2%;
+}
+label{
+  margin-bottom: 0px;
+  margin-right: 1%;
+  padding-top: 1%;
+}
+article form h2{ 
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  color: #ff3300;
+  margin-bottom: 3%;
+  text-decoration: underline;
+
+}
+article form h3{ 
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  color: #ff3300;
+  
+  }
+.btn-warning:hover{
+  background-color: red;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: 'Roboto Slab', serif;
+}
+.btn-primary:hover{
+  background-color: green;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: 'Roboto Slab', serif;
+  border-color: green;
+}
+.btn:focus{
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,390 @@
+/* Eshop.html */
+
+body{
+    background-color: #eee6ff;
+}
+/* Navigacia */
+#mainNav {
+  background-color:transparent;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+ }
+ #mainNav.solid{
+  background-color:#1099dd;
+  
+}
+#mainNav.solid div a{
+  color: white;
+}
+#mainNav.solid div a:hover{
+  color: green;
+}
+#mainNav div a{
+  color:rgb(75, 75, 75);
+  text-transform: uppercase;
+  
+  }
+  
+#myNavbar ul li a{
+  background-color:transparent;
+  letter-spacing: 2px;
+  
+} 
+
+#myNavbar ul li a:hover{
+  color: green;
+}
+
+#logo{
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 5px;
+   }
+#logo:hover{
+  color: green;
+}
+.navbar-brand{
+  font-size: 22px;
+}
+
+#inputsearch{
+  margin-top: 2%;
+}
+#pocitadlo {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:  #ff3300;
+  color: white;
+  text-align: center;
+  
+} 
+
+/* Header */
+#header{
+  position: relative;
+  
+}
+
+#headerimg{
+  float: left;
+}
+
+#popis{
+  position: absolute;
+}
+#popis{
+  top: 5em;
+  right: 8em;
+  
+}
+#popis h3{
+  text-align: center;
+  font-weight: bolder;
+  color: #ff3300;
+  padding-top: 4%;
+
+}
+
+#topprodukty div img{
+    padding: 3% 0;
+  }
+
+
+
+/* Media Header,Topprodukty max-width: 1200px */
+@media only screen and (max-width: 1200px) {
+    #topprodukty div h2{
+        font-size: 16px;
+    }
+    #topprodukty div h3{
+        font-size: 14px;
+    }
+    #topprodukty div p{
+        font-size: 12px;
+    }
+    #topprodukty div button{
+        font-size: 10px;
+    }
+    #popis h2{
+        width: 100%;
+    }
+    #popis h2 span{
+      font-size: 58px;
+      margin-bottom: 1%;
+     }
+     #popis h3{
+       font-size: 20px;
+     }
+   
+    }
+/* Media Header,Topprodukty max-width: 1000px */
+@media only screen and (max-width: 1000px) {
+  #popis{
+    margin-right: 20%;
+  }
+
+  }
+
+/* Media Header,Topprodukty max-width: 770px */
+@media only screen and (max-width: 770px) {
+    #topprodukty div img {
+        width: 80%;
+        padding-left:30% ;
+        max-height: 70%;
+        width: 70%;
+        
+     }
+     #topprodukty div h2{
+        margin: 0;
+     }
+     #topprodukty button{
+      margin-bottom: 2%;
+     }
+     #topprodukty h1{
+      font-size: 28px;
+    }
+    #kontakt h1{
+      font-size: 28px;
+    }
+     #popis h2 span{
+     font-size: 38px;
+     }
+     #popis h3{
+       font-size:14px;
+     }
+}
+
+/* Media Header,Topprodukty max-width: 600px */
+@media only screen and (max-width: 600px) {
+  #topprodukty div img {
+      padding-left: 30%;
+        
+     }
+  #popis h2 span{
+      font-size: 16px;
+      width: 100%;
+    
+  }
+  #popis h3{
+    font-size: 10px;
+
+  }
+  #popis{
+    top: 3em;
+   
+
+  }
+
+  #topprodukty div img{
+    height: 290px;
+    
+  }
+  #topprodukty div button{
+    margin-bottom: 2%;
+  }
+  #topprodukty div img{
+      height: 80%;
+   
+  }
+  #topprodukty div h2{
+      font-size: 18px;
+  }
+  #topprodukty div h3{
+    font-size: 14px;
+  }
+  #topprodukty div p{
+    font-size: 12px;
+  }
+  #topprodukty div button{
+    font-size: 10px;
+  }
+  #footerTop p{
+   font-size: 12px;
+}
+}
+
+/* Top produkty */
+section{
+    margin: 1% 0;
+}
+section hr{
+    border-color: white;
+}
+#topprodukty div h2{
+    margin-top: 10%;
+}
+
+section h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: 	 #ff3300;
+    font-family: 'Roboto Slab', serif;
+    text-decoration:wavy;
+    margin: 4% 0 1% 0 ;
+    font-size: 36px;
+   
+}
+section p{
+    color: gold;
+    font-size: 26px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0%;
+    
+}
+
+section div hr{
+   height: 2px;
+   border-width: 2px;
+   border-color: white;
+}
+
+section div button{
+    margin-top: 6%;
+
+}
+section div button.btn:focus{
+    border: none;
+    outline: none;
+}
+
+/* Footer*/
+#footer{
+    border-radius: 4px;
+}
+
+#footerTop{
+    
+    color: black ;
+    border-radius: 4px;
+}
+#footer p{
+    text-align: center;
+}
+
+.tab-pane{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+#footerTop img{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+#footerBottom{
+    background-color: white;
+    color: black ;
+    border-radius: 6px;
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+#footerBottom hr{
+    width: 80%;
+     border-color: yellowgreen;
+}
+#footerBottom p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: larger;
+    font-family: 'Roboto Slab', serif;
+   
+}
+.tab-content{
+    padding-top: 2%;
+}
+#footerBottom ul li a:hover{
+   text-transform: uppercase;
+   color: green;
+   text-decoration: none;
+   font-family: 'Roboto Slab', serif;
+}
+#footerTop p{
+    padding: 1% 0;
+    font-family: 'Roboto Slab', serif;
+}
+#footerTop div{
+    margin-bottom: 1%;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+
+/* JUMP */
+
+ h2 span {
+  margin-bottom: 4%;
+  position: relative;
+  top: 20px;
+  display: inline;
+  -webkit-animation: bounce 0.8s ease infinite alternate;
+  font-size: 80px;
+  
+  color: #006699;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h2 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h2 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h2 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h2 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h2 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h2 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h2 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h2 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h2 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h2 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h2 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h2 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h2 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@-webkit-keyframes bounce {
+  100% {
+    top: -5px;
+    text-shadow: 0 1px 0 rgb(255, 253, 253), 0 2px 0 rgb(255, 255, 255), 0 3px 0 rgb(255, 255, 255), 0 4px 0 rgb(255, 255, 255),
+      0 5px 0 rgb(255, 255, 255), 0 6px 0 rgb(255, 255, 255), 0 7px 0 rgb(255, 255, 255), 0 8px 0 rgb(255, 255, 255), 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
