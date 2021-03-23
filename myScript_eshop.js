@@ -2,7 +2,7 @@
 $(document).ready(function(){
 
  /*-- Pridanie dat z JSON do Top produkty,slider --*/
-   let produkt1 = [];
+   
    $.get("db.json",function(produkty){ 
    for( i= 0; i<4; i++){
    
@@ -13,13 +13,14 @@ $(document).ready(function(){
    });
 
    /*-- Tlacidlo na pridanie do kosika --*/
+   let produkt1 = JSON.parse(localStorage.getItem("produkty"));
    $("button.btn4").on('click',function(event) { 
-      produkt = JSON.parse(localStorage.getItem("produkty"));
+    let  produkt = JSON.parse(localStorage.getItem("produkty"));
       if(produkt == null){
             produkt = [];
          }
 
-      klikloSaNa = $(event.target).attr('idproduktu');
+    let  klikloSaNa = $(event.target).attr('idproduktu');
 
       $.get("db.json",function(produktyDB){
          for(let produkt of produktyDB ){

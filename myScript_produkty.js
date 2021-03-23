@@ -1,15 +1,10 @@
-let produkt;
-let produkt1 = [];
-let produkty2;
-let vytriedene;
-let klikloSaNa2;
-let buton;
-let butons
+
+
+
 
 $(document).ready(function(){
   /*-- Pridanie dat z JSON do html --*/
     $.get("db.json",function(produkty){
-      produkt = produkty;
       for(i=4; i<produkty.length; i++){
         $(`#art${i+1} h2`).html(produkty[i].nazov);
         $(`#art${i+1} h3`).html(produkty[i].nazov1);
@@ -20,7 +15,7 @@ $(document).ready(function(){
   /*-- Filter n search podla nazvu--*/
     $.get("db.json",function(){
       $("#inputsearch").on("keyup", function() {
-      var value = $(this).val().toLowerCase();
+      let value = $(this).val().toLowerCase();
       $("#produkty div.col-lg-3.col-md-3.col-sm-6.text-center").filter(function() {
       if($(this).text().toLowerCase().indexOf(value) > -1){
          $(this).show();
@@ -32,11 +27,13 @@ $(document).ready(function(){
     });
 
     /*-- Pridanie do kosika button --*/
+    let produkt1 = JSON.parse(localStorage.getItem("produkty"));
     $('button.btn2').on('click',function(event){ 
-
-    klikloSaNa = $(event.target).attr('idproduktu');
-
+  
+    let klikloSaNa = $(event.target).attr('idproduktu');
+    
     $.get("db.json",function(produktyDB){
+      
       for(let produkt of produktyDB ){
         if(klikloSaNa == produkt.id){
           produkt1.push(produkt);
@@ -58,7 +55,7 @@ $(document).ready(function(){
 
     /*-- Detail produktu button --*/
     $("button.btn1").on('click',function(event) { 
-      klikloSaNa1 = $(event.target).attr('idproduktu');
+     let klikloSaNa1 = $(event.target).attr('idproduktu');
       window.location.replace("./detail.html?id="+ klikloSaNa1);
 
       let sPageURL = window.location.search.substring(1);
@@ -111,8 +108,8 @@ $(document).ready(function(){
      /*--Triedenie od najlacnejsieho--*/
     $('#najlacnejsi').on('click',function(){ 
       $.get("db.json",function(produktyDB){
-       produkty2 = produktyDB.slice(4);
-       vytriedene = produkty2.sort(function(a, b){return a.cena - b.cena});
+       let produkty2 = produktyDB.slice(4);
+       let vytriedene = produkty2.sort(function(a, b){return a.cena - b.cena});
     
       for(i=0; i<vytriedene.length; i++){
       $(`#art${i+5} h2`).html(vytriedene[i].nazov);
@@ -135,8 +132,8 @@ $(document).ready(function(){
     /*--Triedenie od najdrahsieho--*/
     $('#najdrahsi').on('click',function(){ 
       $.get("db.json",function(produktyDB){
-       produkty2 = produktyDB.slice(4);
-       vytriedene = produkty2.sort(function(a, b){return b.cena - a.cena});
+      let produkty2 = produktyDB.slice(4);
+      let vytriedene = produkty2.sort(function(a, b){return b.cena - a.cena});
 
       for(i=0; i<vytriedene.length; i++){
       $(`#art${i+5} h2`).html(vytriedene[i].nazov);

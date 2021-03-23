@@ -1,9 +1,7 @@
- let status;
+ 
  let produkty;
- let ceny = []
- let spolu;
- let spoluBezDph;
- let pocet;
+ let ceny = [];
+
 
 $(document).ready(function(){
 
@@ -36,11 +34,11 @@ $(document).ready(function(){
    /*-- Vypocet ceny veci v kosiku: Bez dph/Spolu --*/
   if(produkty!=0){
   let reducer = (accumulator, currentValue) => accumulator + currentValue ;
-  spolu = ceny.reduce(reducer)
+  let spolu = ceny.reduce(reducer)
   console.log(spolu)
   $("#spolu").val(spolu+" " + "EUR");
 
-  spoluBezDph = spolu -( spolu * 0.19);
+  let spoluBezDph = spolu -( spolu * 0.19);
   console.log(spoluBezDph);
   $("#spoluBezDph").val(spoluBezDph+" " + "EUR");
   }
@@ -59,10 +57,10 @@ $(document).ready(function(){
 
   if(produkty!=0){
   let reducer = (accumulator, currentValue) => accumulator + currentValue;
-  spolu = ceny.reduce(reducer)
+  let spolu = ceny.reduce(reducer)
   $("#spolu").val(spolu+ " " +"EUR");
 
-  spoluBezDph = spolu -( spolu * 0.19);
+  let spoluBezDph = spolu -( spolu * 0.19);
   $("#spoluBezDph").val(spoluBezDph+" " + "EUR");
   }
 
@@ -80,7 +78,7 @@ $(document).ready(function(){
   /*-- Button : zmazat zvolenu polozku v kosiku --*/
   $('#button3').on('click',function deleteItem() {
     for(let i=produkty.length; i>=0; i--){
-      status = $(`#checkBox${i}:checked`).val();
+      let status = $(`#checkBox${i}:checked`).val();
       if(status){
         produkty.splice(i,1);
         

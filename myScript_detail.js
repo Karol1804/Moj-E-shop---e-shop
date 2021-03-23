@@ -1,4 +1,4 @@
-let produkt1 = [];
+
 $(document).ready(function(){
 
  /*-- Pridanie dat z JSON do html --*/  
@@ -16,6 +16,7 @@ $(document).ready(function(){
     }
 
  /*--Pridanie produktu do kosika button --*/
+ let produkt1 = JSON.parse(localStorage.getItem("produkty"));
  $('button').on('click',function(){ 
   let sPageURL = window.location.search.substring(1);
   let i;
