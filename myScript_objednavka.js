@@ -47,14 +47,17 @@ $(document).ready(function(){
 
 
   /*-- Vypocet ceny veci v kosiku: Bez dph/Spolu --*/
- let cena2;
+ 
+     ceny=[];
    for(let i= 0; i<produkty.length; i++){
     let cena = produkty[i].cena
     let cena1 =  cena * produkty[i].pocet
-    cena2=parseInt(cena1)
+    ceny.push(cena1);
     
+    console.log(ceny);
+  
   }
-  ceny.push(cena2);
+
 
   console.log(ceny);
 
@@ -62,8 +65,9 @@ $(document).ready(function(){
     let reducer = (accumulator, currentValue) => accumulator + currentValue;
     let spolu = ceny.reduce(reducer)
     console.log(spolu);
-    $("#spolu").val(spolu+ " " +"EUR");
+    $("#spolu").val(spolu + " " +"EUR");
 
+    
     let spoluBezDph = spolu -( spolu * 0.19);
     $("#spoluBezDph").val(spoluBezDph+" " + "EUR");
   }
