@@ -1,7 +1,4 @@
 
-
-
-
 $(document).ready(function(){
   /*-- Pridanie dat z JSON do html --*/
     $.get("db.json",function(produkty){
