@@ -1,7 +1,5 @@
  
  let produkty;
- let ceny = [];
-
 
 $(document).ready(function(){
 
@@ -9,8 +7,7 @@ $(document).ready(function(){
   produkty=JSON.parse(localStorage.getItem("produkty"));
    
   for(let i= 0; i<produkty.length; i++){
-  /* pocet = document.getElementById("pocet").value */
-  $('#tabulka1').append(`<tr><td>${produkty[i].id }</td><td>${produkty[i].nazov}</td><td><input id="pocet${i}" style="width: 15%;" type="number" min=1 class=number name="pocet" value="${produkty[i].pocet}"></td><td id="aktcena${i}">${produkty[i].cena * produkty[i].pocet } eur</td><td><input id="checkBox${i}" class=checkBox type="checkbox"></td></tr>`);
+  $('#tabulka1').append(`<tr><td>${produkty[i].id }</td><td>${produkty[i].nazov}</td><td><input id="pocet${i}" style="width: 15%;" type="number" min=1 class=number name="pocet" value="${produkty[i].pocet}"></td><td id="aktcena${i}">${produkty[i].cena * produkty[i].pocet } </td><td><input id="checkBox${i}" class=checkBox type="checkbox"></td></tr>`);
   }
   
   $(":input").on('keyup mouseup', function () {
@@ -47,6 +44,7 @@ $(document).ready(function(){
 
 
   /*-- Vypocet ceny veci v kosiku: Bez dph/Spolu --*/
+  let ceny = [];
   for(let i= 0; i<produkty.length; i++){
     let cena = produkty[i].cena
     cena1=parseInt(cena)
