@@ -11,32 +11,32 @@ $(document).ready(function(){
     }
     
     $(":input").on('keyup mouseup', function () {
-    let ceny=[];
-    for(let i= 0; i<produkty.length; i++){
+      let ceny=[];
+      for(let i= 0; i<produkty.length; i++){
+      
+      this.cena = produkty[i].cena
+      let cena1 = parseInt(this.cena);
+      let aktcena = cena1 * parseInt($(`#pocet${i}`).val());
+      aktcena = parseInt(aktcena)
+      console.log(aktcena);
+      document.getElementById(`aktcena${i}`).innerHTML = aktcena
+      ceny.push(aktcena);
+      console.log(ceny);
     
-    this.cena = produkty[i].cena
-    let cena1 = parseInt(this.cena);
-    let aktcena = cena1 * parseInt($(`#pocet${i}`).val());
-    aktcena = parseInt(aktcena)
-    console.log(aktcena);
-    document.getElementById(`aktcena${i}`).innerHTML = aktcena
-    ceny.push(aktcena);
-    console.log(ceny);
-  
-    produkty[i].pocet = parseInt($(`#pocet${i}`).val());
-    }
-    localStorage.setItem("produkty",JSON.stringify(produkty));
-  
+      produkty[i].pocet = parseInt($(`#pocet${i}`).val());
+      }
+      localStorage.setItem("produkty",JSON.stringify(produkty));
+    
     
      /*-- Vypocet ceny veci v kosiku: Bez dph/Spolu --*/
     if(produkty!=0){
-    let reducer = (accumulator, currentValue) => accumulator + currentValue ;
-    let spolu = ceny.reduce(reducer)
-    console.log(spolu)
+      let reducer = (accumulator, currentValue) => accumulator + currentValue ;
+      let spolu = ceny.reduce(reducer)
+      console.log(spolu)
     $("#spolu").val(spolu+" " + "EUR");
   
-    let spoluBezDph = spolu -( spolu * 0.19);
-    console.log(spoluBezDph);
+      let spoluBezDph = spolu -( spolu * 0.19);
+      console.log(spoluBezDph);
     $("#spoluBezDph").val(spoluBezDph+" " + "EUR");
     }
   
@@ -53,11 +53,10 @@ $(document).ready(function(){
     }
   
     if(produkty!=0){
-    let reducer = (accumulator, currentValue) => accumulator + currentValue;
-    let spolu = ceny1.reduce(reducer)
+      let reducer = (accumulator, currentValue) => accumulator + currentValue;
+      let spolu = ceny1.reduce(reducer)
     $("#spolu").val(spolu+ " " +"EUR");
-  
-    let spoluBezDph = spolu -( spolu * 0.19);
+      let spoluBezDph = spolu -( spolu * 0.19);
     $("#spoluBezDph").val(spoluBezDph+" " + "EUR");
     }
  
@@ -90,6 +89,7 @@ $(document).ready(function(){
 
 
 })
+
  /*-- Pocitadlo kosika po nacitani stranky --*/
  function pocitadlo() {
   let kosik = 0;

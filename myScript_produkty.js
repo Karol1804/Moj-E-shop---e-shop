@@ -144,9 +144,6 @@ $(document).ready(function(){
         $(buton).attr("idproduktu",vytriedene[i].id)
       }
      
-    
-  
-
       }
   })
 })
