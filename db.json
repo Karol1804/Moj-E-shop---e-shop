@@ -1,197 +1,178 @@
 [
-  
-    
-   {
-    "id" : 1, 
-    "nazov" : "LYŽE ATOMIC",
-    "nazov1":"RACE TI G7 + F 12 GW",
+  {
+    "id": 1,
+    "nazov": "LYŽE ATOMIC",
+    "nazov1": "RACE TI G7 + F 12 GW",
     "pocet": "1",
     "zmazat": "",
     "cena": "400",
-    "nasklade":"2",
-    "img" : "images/Top2a.jpg",
-    "popis" :"Špičkové lyže Redster G7 sú výkonné obrákové lyže. Kľúčom k úspechu je kombinácia technológii Atomic Racing: Full Sidewall zaručí presné zatáčanie, Power Woodcore redukuje vibrácie a zabraňuje stratám v prenose energie a Titánové výstuže garantujú vynikajúce držanie na hranách. Lyže sú určené pre pokročilých lyžiarov, ktorí uprednostňujú dlhé dynamické oblúky. Dodávané sú vrátane viazania FT 12 GW."
+    "nasklade": "2",
+    "img": "images/Top2a.jpg",
+    "popis": "Špičkové lyže Redster G7 sú výkonné obrákové lyže. Kľúčom k úspechu je kombinácia technológii Atomic Racing: Full Sidewall zaručí presné zatáčanie, Power Woodcore redukuje vibrácie a zabraňuje stratám v prenose energie a Titánové výstuže garantujú vynikajúce držanie na hranách. Lyže sú určené pre pokročilých lyžiarov, ktorí uprednostňujú dlhé dynamické oblúky. Dodávané sú vrátane viazania FT 12 GW."
   },
   {
-    
     "id": 2,
     "nazov": "LYŽE FISCHER",
-    "nazov1":" Aerolite Skate 70 + Race Skate",
+    "nazov1": " Aerolite Skate 70 + Race Skate",
     "pocet": "1",
     "zmazat": "",
     "cena": "250",
-    "nasklade":"3",
-    "img" : "images/Top3a.jpg",
-    "popis" :"Bežecký set FISCHER Aerolite Skate 70 s viazaním Race Skate IFP Ultraľahke a odolné bežky FISHER Aeorolite 70 s výbornými klznými vlastnosťami. Viazanie Race Skate IFP so systémom Step-in pre jednoduché našľápnutie a Tool Free pre nastavenie bez nástroja. Perfektne sa hodiace pre hobby pretekárov. Dĺžka bežiek 176 cm je určená pre bežkára o hmotnosti 55 až 69 kg. Dĺžka bežiek 181 cm je určená pre bežkára o hmotnosti 65 až 79 kg. Dĺžka bežiek 186 cm je určená pre bežkára o hmotnosti 75 až 90 kg."
+    "nasklade": "3",
+    "img": "images/Top3a.jpg",
+    "popis": "Bežecký set FISCHER Aerolite Skate 70 s viazaním Race Skate IFP Ultraľahke a odolné bežky FISHER Aeorolite 70 s výbornými klznými vlastnosťami. Viazanie Race Skate IFP so systémom Step-in pre jednoduché našľápnutie a Tool Free pre nastavenie bez nástroja. Perfektne sa hodiace pre hobby pretekárov. Dĺžka bežiek 176 cm je určená pre bežkára o hmotnosti 55 až 69 kg. Dĺžka bežiek 181 cm je určená pre bežkára o hmotnosti 65 až 79 kg. Dĺžka bežiek 186 cm je určená pre bežkára o hmotnosti 75 až 90 kg."
   },
   {
-    
     "id": 3,
     "nazov": "TOPÁNKY ALPINA",
-    "nazov1":"T8 Black/ White/ Red 19/20",
+    "nazov1": "T8 Black/ White/ Red 19/20",
     "pocet": "1",
     "zmazat": "",
     "cena": "70",
-    "nasklade":"10",
-    "img" : "images/Top4a.jpg",
-    "popis" :"Pohodlná a veľmi kvalitná obuv na bežky Alpina T8 black/white/red s krytým zipsom proti snehu. Podrážka NNN T4 je vhodná pre NNN Touring Auto viazanie.Izolácia Thinsulate poskytuje dvojnásobnú tepelnú izoláciu obuvi. Pri extrémne chladných a veľmi vlhkých podmienkach Thinsulate poskytuje maximálny komfort.Technológia Soft Flex spolu s konštrukciou topánky poskytuje vysoký stupeň ohybovej tuhosti.Kombinácia šnúrok a textilných pásov poskytuje silné, ale pohodlné uchytenie nohy."
+    "nasklade": "10",
+    "img": "images/Top4a.jpg",
+    "popis": "Pohodlná a veľmi kvalitná obuv na bežky Alpina T8 black/white/red s krytým zipsom proti snehu. Podrážka NNN T4 je vhodná pre NNN Touring Auto viazanie.Izolácia Thinsulate poskytuje dvojnásobnú tepelnú izoláciu obuvi. Pri extrémne chladných a veľmi vlhkých podmienkach Thinsulate poskytuje maximálny komfort.Technológia Soft Flex spolu s konštrukciou topánky poskytuje vysoký stupeň ohybovej tuhosti.Kombinácia šnúrok a textilných pásov poskytuje silné, ale pohodlné uchytenie nohy."
   },
   {
-    
     "id": 4,
     "nazov": "LYŽE SALOMON",
-    "nazov1":"T S/RACE PRO GS + X 12T",
+    "nazov1": "T S/RACE PRO GS + X 12T",
     "pocet": "1",
     "zmazat": "",
     "cena": "800",
-    "nasklade":"2",
-    "img" : "images/Top1a.jpg",
-    "popis" :"Doprajte si nával nových skúseností, a predovšetkým výkonu lyží Salomon S/Race, ktoré vytvárajú sa športové doskou kombináciu pre veľmi športovo ladené nadšencov. Toto spojenie bolo designované pre precízne zrýchlenie a presnú stabilitu v oblúku. Športové, až závodné štýl môžete bezo zvyšku využiť ako na voľnej zjazdovke, tak aj ak občas zavítate to lyžiarskych bránok. Lyžiam veľmi pristane dlhšie oblúky aj vo vyšších rýchlostiach, ktoré hravo zvláda aj predovšetkým vďaka technológii Edge Amplifier. Dvojitá vrstva vystuženie v podobe titanalových plátov zvyšuje výkonnosť lyže predovšetkým na upravenom a zľadovatenom svahu, rovnako ako presnosť a rýchlosť hranenia pri dynamickej jazde. Kombinácia dvoch typov drevín v jadre ponúkajú taktiež vysokú stabilitu a citlivosť v priebehu prejazde oblúku. Na svoje si teda prídu nielen obľúbenci dlhých zákrut a vysokých rýchlostí, ale aj športových lyžiarov hľadajúci dynamickú lyžu pre aktívnu jazdu, lebo so svojim polomerom 15 m dokážu tieto lyže uspokojiť oba tábory."
-  }, 
-  {
-    
-    "id": 5,
-    "nazov": "LYŽE SALOMON",
-    "nazov1":"T S/RACE PRO GS + X 12T",
-    "pocet": "1",
-    "zmazat": "",
-    "cena": "800",
-    "nasklade":"2",
-    "img" : "images/Top1.jpg",
-    "popis" :"Doprajte si nával nových skúseností, a predovšetkým výkonu lyží Salomon S/Race, ktoré vytvárajú sa športové doskou kombináciu pre veľmi športovo ladené nadšencov. Toto spojenie bolo designované pre precízne zrýchlenie a presnú stabilitu v oblúku. Športové, až závodné štýl môžete bezo zvyšku využiť ako na voľnej zjazdovke, tak aj ak občas zavítate to lyžiarskych bránok. Lyžiam veľmi pristane dlhšie oblúky aj vo vyšších rýchlostiach, ktoré hravo zvláda aj predovšetkým vďaka technológii Edge Amplifier. Dvojitá vrstva vystuženie v podobe titanalových plátov zvyšuje výkonnosť lyže predovšetkým na upravenom a zľadovatenom svahu, rovnako ako presnosť a rýchlosť hranenia pri dynamickej jazde. Kombinácia dvoch typov drevín v jadre ponúkajú taktiež vysokú stabilitu a citlivosť v priebehu prejazde oblúku. Na svoje si teda prídu nielen obľúbenci dlhých zákrut a vysokých rýchlostí, ale aj športových lyžiarov hľadajúci dynamickú lyžu pre aktívnu jazdu, lebo so svojim polomerom 15 m dokážu tieto lyže uspokojiť oba tábory."
+    "nasklade": "2",
+    "img": "images/Top1a.jpg",
+    "popis": "Doprajte si nával nových skúseností, a predovšetkým výkonu lyží Salomon S/Race, ktoré vytvárajú sa športové doskou kombináciu pre veľmi športovo ladené nadšencov. Toto spojenie bolo designované pre precízne zrýchlenie a presnú stabilitu v oblúku. Športové, až závodné štýl môžete bezo zvyšku využiť ako na voľnej zjazdovke, tak aj ak občas zavítate to lyžiarskych bránok. Lyžiam veľmi pristane dlhšie oblúky aj vo vyšších rýchlostiach, ktoré hravo zvláda aj predovšetkým vďaka technológii Edge Amplifier. Dvojitá vrstva vystuženie v podobe titanalových plátov zvyšuje výkonnosť lyže predovšetkým na upravenom a zľadovatenom svahu, rovnako ako presnosť a rýchlosť hranenia pri dynamickej jazde. Kombinácia dvoch typov drevín v jadre ponúkajú taktiež vysokú stabilitu a citlivosť v priebehu prejazde oblúku. Na svoje si teda prídu nielen obľúbenci dlhých zákrut a vysokých rýchlostí, ale aj športových lyžiarov hľadajúci dynamickú lyžu pre aktívnu jazdu, lebo so svojim polomerom 15 m dokážu tieto lyže uspokojiť oba tábory."
   },
   {
-    
+    "id": 5,
+    "nazov": "LYŽE SALOMON",
+    "nazov1": "T S/RACE PRO GS + X 12T",
+    "pocet": "1",
+    "zmazat": "",
+    "cena": "800",
+    "nasklade": "2",
+    "img": "images/Top1.jpg",
+    "popis": "Doprajte si nával nových skúseností, a predovšetkým výkonu lyží Salomon S/Race, ktoré vytvárajú sa športové doskou kombináciu pre veľmi športovo ladené nadšencov. Toto spojenie bolo designované pre precízne zrýchlenie a presnú stabilitu v oblúku. Športové, až závodné štýl môžete bezo zvyšku využiť ako na voľnej zjazdovke, tak aj ak občas zavítate to lyžiarskych bránok. Lyžiam veľmi pristane dlhšie oblúky aj vo vyšších rýchlostiach, ktoré hravo zvláda aj predovšetkým vďaka technológii Edge Amplifier. Dvojitá vrstva vystuženie v podobe titanalových plátov zvyšuje výkonnosť lyže predovšetkým na upravenom a zľadovatenom svahu, rovnako ako presnosť a rýchlosť hranenia pri dynamickej jazde. Kombinácia dvoch typov drevín v jadre ponúkajú taktiež vysokú stabilitu a citlivosť v priebehu prejazde oblúku. Na svoje si teda prídu nielen obľúbenci dlhých zákrut a vysokých rýchlostí, ale aj športových lyžiarov hľadajúci dynamickú lyžu pre aktívnu jazdu, lebo so svojim polomerom 15 m dokážu tieto lyže uspokojiť oba tábory."
+  },
+  {
     "id": 6,
     "nazov": "LYŽE ATOMIC ",
-    "nazov1":"RACE TI G7 + F 12 GW",
+    "nazov1": "RACE TI G7 + F 12 GW",
     "pocet": "1",
     "zmazat": "",
     "cena": "400",
-    "nasklade":"2",
-    "img" : "images/Top2.jpg",
-    "popis" :"Špičkové lyže Redster G7 sú výkonné obrákové lyže. Kľúčom k úspechu je kombinácia technológii Atomic Racing: Full Sidewall zaručí presné zatáčanie, Power Woodcore redukuje vibrácie a zabraňuje stratám v prenose energie a Titánové výstuže garantujú vynikajúce držanie na hranách. Lyže sú určené pre pokročilých lyžiarov, ktorí uprednostňujú dlhé dynamické oblúky. Dodávané sú vrátane viazania FT 12 GW."
+    "nasklade": "2",
+    "img": "images/Top2.jpg",
+    "popis": "Špičkové lyže Redster G7 sú výkonné obrákové lyže. Kľúčom k úspechu je kombinácia technológii Atomic Racing: Full Sidewall zaručí presné zatáčanie, Power Woodcore redukuje vibrácie a zabraňuje stratám v prenose energie a Titánové výstuže garantujú vynikajúce držanie na hranách. Lyže sú určené pre pokročilých lyžiarov, ktorí uprednostňujú dlhé dynamické oblúky. Dodávané sú vrátane viazania FT 12 GW."
   },
   {
-    
     "id": 7,
     "nazov": "LYŽE FISCHER",
-    "nazov1":"Aerolite Skate 70 + Race Skate",
+    "nazov1": "Aerolite Skate 70 + Race Skate",
     "pocet": "1",
     "zmazat": "",
     "cena": "250",
-    "nasklade":"3",
-    "img" : "images/Top3.jpg",
-    "popis" :"Bežecký set FISCHER Aerolite Skate 70 s viazaním Race Skate IFP Ultraľahke a odolné bežky FISHER Aeorolite 70 s výbornými klznými vlastnosťami. Viazanie Race Skate IFP so systémom Step-in pre jednoduché našľápnutie a Tool Free pre nastavenie bez nástroja. Perfektne sa hodiace pre hobby pretekárov. Dĺžka bežiek 176 cm je určená pre bežkára o hmotnosti 55 až 69 kg. Dĺžka bežiek 181 cm je určená pre bežkára o hmotnosti 65 až 79 kg. Dĺžka bežiek 186 cm je určená pre bežkára o hmotnosti 75 až 90 kg."
-    
+    "nasklade": "3",
+    "img": "images/Top3.jpg",
+    "popis": "Bežecký set FISCHER Aerolite Skate 70 s viazaním Race Skate IFP Ultraľahke a odolné bežky FISHER Aeorolite 70 s výbornými klznými vlastnosťami. Viazanie Race Skate IFP so systémom Step-in pre jednoduché našľápnutie a Tool Free pre nastavenie bez nástroja. Perfektne sa hodiace pre hobby pretekárov. Dĺžka bežiek 176 cm je určená pre bežkára o hmotnosti 55 až 69 kg. Dĺžka bežiek 181 cm je určená pre bežkára o hmotnosti 65 až 79 kg. Dĺžka bežiek 186 cm je určená pre bežkára o hmotnosti 75 až 90 kg."
   },
   {
-    
     "id": 8,
     "nazov": "TOPÁNKY ALPINA",
-    "nazov1":"T8 Black/ White/ Red 19/20",
+    "nazov1": "T8 Black/ White/ Red 19/20",
     "pocet": "1",
     "zmazat": "",
     "cena": "70",
-    "nasklade":"10",
-    "img" : "images/Top4.jpg",
-    "popis" :"Pohodlná a veľmi kvalitná obuv na bežky Alpina T8 black/white/red s krytým zipsom proti snehu. Podrážka NNN T4 je vhodná pre NNN Touring Auto viazanie.Izolácia Thinsulate poskytuje dvojnásobnú tepelnú izoláciu obuvi. Pri extrémne chladných a veľmi vlhkých podmienkach Thinsulate poskytuje maximálny komfort.Technológia Soft Flex spolu s konštrukciou topánky poskytuje vysoký stupeň ohybovej tuhosti.Kombinácia šnúrok a textilných pásov poskytuje silné, ale pohodlné uchytenie nohy."
+    "nasklade": "10",
+    "img": "images/Top4.jpg",
+    "popis": "Pohodlná a veľmi kvalitná obuv na bežky Alpina T8 black/white/red s krytým zipsom proti snehu. Podrážka NNN T4 je vhodná pre NNN Touring Auto viazanie.Izolácia Thinsulate poskytuje dvojnásobnú tepelnú izoláciu obuvi. Pri extrémne chladných a veľmi vlhkých podmienkach Thinsulate poskytuje maximálny komfort.Technológia Soft Flex spolu s konštrukciou topánky poskytuje vysoký stupeň ohybovej tuhosti.Kombinácia šnúrok a textilných pásov poskytuje silné, ale pohodlné uchytenie nohy."
   },
   {
-    
     "id": 9,
     "nazov": "Snowboard GRAVITY",
-    "nazov1":"Sublime Multi (MULTI)",
+    "nazov1": "Sublime Multi (MULTI)",
     "pocet": "1",
     "zmazat": "",
     "cena": "300",
-    "nasklade":"6",
-    "img" : "images/Top5.jpg",
-    "popis" :"Technické parametre:Prehnutie-Camrock, Tvar-Twin Tip, Štýl jazdy-Freestyle, Úroveň jazdca-Pokročilý,Začiatočník, Tvrdosť-4,Z em pôvodu-Česká Republika, Dĺžka-152,Rádius-8,3, Efektívna hrana-115, 27,8, Šírka stredu-24,1,  Šírka patky-27,8, Materiál-Drevo, Sklolaminát, Pohlavie-Dámské, Váha jazdcu-60-80"
+    "nasklade": "6",
+    "img": "images/Top5.jpg",
+    "popis": "Technické parametre:Prehnutie-Camrock, Tvar-Twin Tip, Štýl jazdy-Freestyle, Úroveň jazdca-Pokročilý,Začiatočník, Tvrdosť-4,Z em pôvodu-Česká Republika, Dĺžka-152,Rádius-8,3, Efektívna hrana-115, 27,8, Šírka stredu-24,1,  Šírka patky-27,8, Materiál-Drevo, Sklolaminát, Pohlavie-Dámské, Váha jazdcu-60-80"
   },
   {
-    
     "id": 10,
     "nazov": "Atomic Savor Visor",
-    "nazov1":"Junior Lyžiarska prilba Red XS",
+    "nazov1": "Junior Lyžiarska prilba Red XS",
     "pocet": "1",
     "zmazat": "",
     "cena": "80",
-    "nasklade":"8",
-    "img" : "images/Top6.jpg",
-    "popis" :"Lyžiarská helma pre deti ponúka vysoko kvalitnú prilbu a lyžiarské okuliare v jednom. Oceníte najvyššie pohodlie vďaka funkcii Live Fit, ktorá zabezpečí perfektné vytvarovanie vnútra helmy podľa tvaru hlavy. Prilba tiež poskytuje ventiláciu vzduchu a vynikajúcu ochranu pred nárazmi. Samozrejmosťou je možnosť nastavenia remianka helmy."
+    "nasklade": "8",
+    "img": "images/Top6.jpg",
+    "popis": "Lyžiarská helma pre deti ponúka vysoko kvalitnú prilbu a lyžiarské okuliare v jednom. Oceníte najvyššie pohodlie vďaka funkcii Live Fit, ktorá zabezpečí perfektné vytvarovanie vnútra helmy podľa tvaru hlavy. Prilba tiež poskytuje ventiláciu vzduchu a vynikajúcu ochranu pred nárazmi. Samozrejmosťou je možnosť nastavenia remianka helmy."
   },
   {
-    
     "id": 11,
     "nazov": "Snowboard WEDZE ",
-    "nazov1":"Parkride 500 na all mountain",
+    "nazov1": "Parkride 500 na all mountain",
     "pocet": "1",
     "zmazat": "",
     "cena": "160",
-    "nasklade":"4",
-    "img" : "images/Top7.jpg",
-    "popis" :"Vytvorili sme túto dosku pre pokročilých až skúsených používateľov, ktorí hľadajú univerzálnu dosku: park, side hits, carving a prašan.Klasické prehnutie na dobrý odraz a priľnavosť na zjazdovke a v parku. Široká doska s rockerom a powder stance (poloha viazania veľmi vzadu) na prachový sneh."
+    "nasklade": "4",
+    "img": "images/Top7.jpg",
+    "popis": "Vytvorili sme túto dosku pre pokročilých až skúsených používateľov, ktorí hľadajú univerzálnu dosku: park, side hits, carving a prašan.Klasické prehnutie na dobrý odraz a priľnavosť na zjazdovke a v parku. Široká doska s rockerom a powder stance (poloha viazania veľmi vzadu) na prachový sneh."
   },
   {
-    
     "id": 12,
     "nazov": "Lyžiarky ATOMIC ",
-    "nazov1":"Hawx Prime 90 Black",
+    "nazov1": "Hawx Prime 90 Black",
     "pocet": "1",
     "zmazat": "",
     "cena": "260",
-    "nasklade":"9",
-    "img" : "images/Top8.jpg",
-    "popis" :"Vďaka pánskym lyžiarskym topánkam ATOMIC Hawx Prime 90 zažijete neskutočné výkony pri lyžovaní! Lyžiarky ATOMIC Hawx Prime 90 sú novou vylepšenou sériou svojho predchodcu Hawx, ktoré sú dlhodobo celosvetovo najpredávanejšie lyžiarky v kategórii medium-fit. Každý, kto niekedy vyskúšal túto lyžiarsku topánku vie, že je známa vďaka svojmu komfortu. Nový model je ešte vylepšený technológiou Memory Fit 3D Silver, s ktorou je možné prispôsobiť si skelet, vložku a vnútornú topánku na mieru. Špičková technológia 3M Thinsulate Insulation zabezpečí, že vaše nohy budú v 100% pohodlí a teple. Ešte k tomu všetkému vám technológia Sole Flex prinesie výnimočnú rovnováhu a kontrolu pri lyžovaní."
+    "nasklade": "9",
+    "img": "images/Top8.jpg",
+    "popis": "Vďaka pánskym lyžiarskym topánkam ATOMIC Hawx Prime 90 zažijete neskutočné výkony pri lyžovaní! Lyžiarky ATOMIC Hawx Prime 90 sú novou vylepšenou sériou svojho predchodcu Hawx, ktoré sú dlhodobo celosvetovo najpredávanejšie lyžiarky v kategórii medium-fit. Každý, kto niekedy vyskúšal túto lyžiarsku topánku vie, že je známa vďaka svojmu komfortu. Nový model je ešte vylepšený technológiou Memory Fit 3D Silver, s ktorou je možné prispôsobiť si skelet, vložku a vnútornú topánku na mieru. Špičková technológia 3M Thinsulate Insulation zabezpečí, že vaše nohy budú v 100% pohodlí a teple. Ešte k tomu všetkému vám technológia Sole Flex prinesie výnimočnú rovnováhu a kontrolu pri lyžovaní."
   },
   {
-    
     "id": 13,
     "nazov": "Rossignol Romy",
-    "nazov1":"Dámske Lyžiarske Rukavice",
+    "nazov1": "Dámske Lyžiarske Rukavice",
     "pocet": "1",
     "zmazat": "",
     "cena": "42",
-    "nasklade":"0",
-    "img" : "images/Top9.jpg",
-    "popis" :"Teplé a elegantné dámske lyžiarske rukavice disponujú štýlovým dizajnom s lesklým lemom a tenkou, umelou kožušinou na manžetách. Ich syntetická izolácia Primaloft® Silver odolná voči vlhkosti poskytuje maximálne teplo. Kožené panely zaručujú optimálny komfort a vynikajúcu priľnavosť na lyžiarskych paliciach. Ich nepremokavá membrána IMP'R poskytuje maximálnu ochranu. Rukavice tiež ponúkajú vlnenú umelú kožušinu pre zvýšenie tepla a hebkosti, priedušnú vnútornú podšívku, preformované prsty pre väčšie pohodlie a slobodu pohybu. Nechýba elastické putko na pripnutie."
-  },  
+    "nasklade": "0",
+    "img": "images/Top9.jpg",
+    "popis": "Teplé a elegantné dámske lyžiarske rukavice disponujú štýlovým dizajnom s lesklým lemom a tenkou, umelou kožušinou na manžetách. Ich syntetická izolácia Primaloft® Silver odolná voči vlhkosti poskytuje maximálne teplo. Kožené panely zaručujú optimálny komfort a vynikajúcu priľnavosť na lyžiarskych paliciach. Ich nepremokavá membrána IMP'R poskytuje maximálnu ochranu. Rukavice tiež ponúkajú vlnenú umelú kožušinu pre zvýšenie tepla a hebkosti, priedušnú vnútornú podšívku, preformované prsty pre väčšie pohodlie a slobodu pohybu. Nechýba elastické putko na pripnutie."
+  },
   {
-    
     "id": 14,
     "nazov": "Snowboard dámsky",
-    "nazov1":"Burton REWIND",
+    "nazov1": "Burton REWIND",
     "pocet": "1",
     "zmazat": "",
     "cena": "180",
-    "nasklade":"8",
-    "img" : "images/Top10.jpg",
-    "popis" :"Snowboard dámsky ; určený na freestyle; úroveň jazdca športová; tvar: twin; prehnutie dosky: camber; šírka: normal; jadro: fSC™ Certified Super Fly® 800G Core, Dualzone™ Off Axis, Squeezebox Low;"
+    "nasklade": "8",
+    "img": "images/Top10.jpg",
+    "popis": "Snowboard dámsky ; určený na freestyle; úroveň jazdca športová; tvar: twin; prehnutie dosky: camber; šírka: normal; jadro: fSC™ Certified Super Fly® 800G Core, Dualzone™ Off Axis, Squeezebox Low;"
   },
   {
-    
     "id": 15,
     "nazov": "Set Alpina Sports",
-    "nazov1":"Zupo set Disney, modrá",
+    "nazov1": "Zupo set Disney, modrá",
     "pocet": "1",
     "zmazat": "",
     "cena": "65",
-    "nasklade":"0",
-    "img" : "images/Top11.jpg",
-    "popis" :"Detský lyžiarsky set prilby a okuliarov. Prilba má snímateľné chrániče uší. Konštrukcia Hard Shell a technológia Hi-Eps. Regulačné koliesko Run System Ergo Snow. Ventilačné otvory pre potrebné odvetranie. Vnútorná výstelka je plne odnímateľná. Okuliare so systémom Singleflex a HICON. Ochrana UV-A, UV-B a UV-C. Technológia FogStop."
+    "nasklade": "0",
+    "img": "images/Top11.jpg",
+    "popis": "Detský lyžiarsky set prilby a okuliarov. Prilba má snímateľné chrániče uší. Konštrukcia Hard Shell a technológia Hi-Eps. Regulačné koliesko Run System Ergo Snow. Ventilačné otvory pre potrebné odvetranie. Vnútorná výstelka je plne odnímateľná. Okuliare so systémom Singleflex a HICON. Ochrana UV-A, UV-B a UV-C. Technológia FogStop."
   },
   {
-    
     "id": 16,
     "nazov": "Rukavice ZIENER",
-    "nazov1":"GLADIR AS(R) AW glove race",
+    "nazov1": "GLADIR AS(R) AW glove race",
     "pocet": "1",
     "zmazat": "",
     "cena": "130",
-    "nasklade":"5",
-    "img" : "images/Top12.jpg",
-    "popis" :"Pánske rukavice značky Ziener. Pretekárske lyžiarske rukavice sú kožené a poskytujú výbornú oporu pretekárovi za každých okolností. Majú vystužené dlane, extra polstrovanie na palcoch a chrbtoch rúk bez toho, aby bola obmedzené mobilita. Do látky bola zapracované 100% alpská Lavalan vlna, ktorá zaručí príjemné teplo bez prehriatia. Vďaka membráne Ziener AquaShield® sú rukavice vodeodolné a vetruodolné.Zimné rukavice na lyžovanie majú neoprénové manžety tesne priliehajúce k zápästiam a dobre držiace na rukách. Široké suché zipsy poskytujú výbornú prispôsobiteľnosť a dobrý úchop. Pútka na zápästia zamedzia strate rukavíc či pomôžu pri rýchlom zoblečení rukavíc. Rukavice sú vhodné aj na pretekárske účely. "
+    "nasklade": "5",
+    "img": "images/Top12.jpg",
+    "popis": "Pánske rukavice značky Ziener. Pretekárske lyžiarske rukavice sú kožené a poskytujú výbornú oporu pretekárovi za každých okolností. Majú vystužené dlane, extra polstrovanie na palcoch a chrbtoch rúk bez toho, aby bola obmedzené mobilita. Do látky bola zapracované 100% alpská Lavalan vlna, ktorá zaručí príjemné teplo bez prehriatia. Vďaka membráne Ziener AquaShield® sú rukavice vodeodolné a vetruodolné.Zimné rukavice na lyžovanie majú neoprénové manžety tesne priliehajúce k zápästiam a dobre držiace na rukách. Široké suché zipsy poskytujú výbornú prispôsobiteľnosť a dobrý úchop. Pútka na zápästia zamedzia strate rukavíc či pomôžu pri rýchlom zoblečení rukavíc. Rukavice sú vhodné aj na pretekárske účely. "
   }
-
 ]
