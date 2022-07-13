@@ -1,84 +1,98 @@
 /* Eshop.html */
 
-body{
-    background-color: #eee6ff;
+body {
+  background-color: #eee6ff;
 }
+
 /* Navigacia */
 #mainNav {
-  background-color:transparent;
+  background-color: transparent;
   border: none;
   font-family: 'Roboto Slab', serif;
- }
- #mainNav.solid{
-  background-color:#1099dd;
-  
+  padding: 10px 0 10px 0;
+ 
 }
-#mainNav.solid div a{
+
+#mainNav.solid {
+  background-color: #1099dd;
+
+}
+
+#logo.navbar-brand.solid div a {
   color: white;
 }
-#mainNav.solid div a:hover{
+
+#mainNav.solid div a:hover {
   color: green;
 }
-#mainNav div a{
-  color:rgb(75, 75, 75);
+
+#mainNav div a {
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
-  
-  }
-  
-#myNavbar ul li a{
-  background-color:transparent;
+
+}
+
+#myNavbar ul li a {
+  background-color: transparent;
   letter-spacing: 2px;
   
-} 
 
-#myNavbar ul li a:hover{
+}
+
+#myNavbar ul li a:hover {
   color: green;
 }
 
-#logo{
+#logo {
   font-family: 'Roboto Slab', serif;
   letter-spacing: 5px;
-   }
-#logo:hover{
+  margin-left: 550px;
+}
+
+#logo:hover {
   color: green;
 }
-.navbar-brand{
+
+.navbar-brand {
   font-size: 22px;
 }
 
-#inputsearch{
+#inputsearch {
   margin-top: 2%;
 }
+
 #pocitadlo {
   position: absolute;
   width: 20px;
   height: 20px;
   border-radius: 50%;
-  background:  #ff3300;
+  background: #ff3300;
   color: white;
   text-align: center;
-  
-} 
 
-/* Header */
-#header{
-  position: relative;
-  
 }
 
-#headerimg{
+/* Header */
+#header {
+  position: relative;
+
+}
+
+#headerimg {
   float: left;
 }
 
-#popis{
+#popis {
   position: absolute;
 }
-#popis{
+
+#popis {
   top: 5em;
   right: 8em;
-  
+
 }
-#popis h3{
+
+#popis h3 {
   text-align: center;
   font-weight: bolder;
   color: #ff3300;
@@ -86,224 +100,267 @@ body{
 
 }
 
-#topprodukty div img{
-    padding: 3% 0;
+#topprodukty div img {
+  padding: 3% 0;
+}
+/* Media Header,Topprodukty max-width: 1200px */
+@media only screen and (max-width: 1280px) {
+  #logo {
+    margin-left: 300px;
   }
-
-
+  .navbar-nav{
+    display: inline-flex;
+    flex-direction: column;
+  }
+  }
 
 /* Media Header,Topprodukty max-width: 1200px */
 @media only screen and (max-width: 1200px) {
-    #topprodukty div h2{
-        font-size: 16px;
-    }
-    #topprodukty div h3{
-        font-size: 14px;
-    }
-    #topprodukty div p{
-        font-size: 12px;
-    }
-    #topprodukty div button{
-        font-size: 10px;
-    }
-    #popis h2{
-        width: 100%;
-    }
-    #popis h2 span{
-      font-size: 58px;
-      margin-bottom: 1%;
-     }
-     #popis h3{
-       font-size: 20px;
-     }
-   
-    }
+  #topprodukty div h2 {
+    font-size: 16px;
+  }
+
+  #topprodukty div h3 {
+    font-size: 14px;
+  }
+
+  #topprodukty div p {
+    font-size: 12px;
+  }
+
+  #topprodukty div button {
+    font-size: 10px;
+  }
+
+  #popis h2 {
+    width: 100%;
+  }
+
+  #popis h2 span {
+    font-size: 58px;
+    margin-bottom: 1%;
+  }
+
+  #popis h3 {
+    font-size: 20px;
+  }
+
+}
+
 /* Media Header,Topprodukty max-width: 1000px */
 @media only screen and (max-width: 1000px) {
-  #popis{
+  #popis {
     margin-right: 20%;
   }
 
-  }
+}
 
 /* Media Header,Topprodukty max-width: 770px */
 @media only screen and (max-width: 770px) {
-    #topprodukty div img {
-        width: 80%;
-        padding-left:30% ;
-        max-height: 70%;
-        width: 70%;
-        
-     }
-     #topprodukty div h2{
-        margin: 0;
-     }
-     #topprodukty button{
-      margin-bottom: 2%;
-     }
-     #topprodukty h1{
-      font-size: 28px;
-    }
-    #kontakt h1{
-      font-size: 28px;
-    }
-     #popis h2 span{
-     font-size: 38px;
-     }
-     #popis h3{
-       font-size:14px;
-     }
+  #topprodukty div img {
+    width: 80%;
+    padding-left: 30%;
+    max-height: 70%;
+    width: 70%;
+
+  }
+
+  #topprodukty div h2 {
+    margin: 0;
+  }
+
+  #topprodukty button {
+    margin-bottom: 2%;
+  }
+
+  #topprodukty h1 {
+    font-size: 28px;
+  }
+
+  #kontakt h1 {
+    font-size: 28px;
+  }
+
+  #popis h2 span {
+    font-size: 38px;
+  }
+
+  #popis h3 {
+    font-size: 14px;
+  }
 }
 
 /* Media Header,Topprodukty max-width: 600px */
 @media only screen and (max-width: 600px) {
   #topprodukty div img {
-      padding-left: 30%;
-        
-     }
-  #popis h2 span{
-      font-size: 16px;
-      width: 100%;
-    
+    padding-left: 30%;
+
   }
-  #popis h3{
+
+  #popis h2 span {
+    font-size: 16px;
+    width: 100%;
+
+  }
+
+  #popis h3 {
     font-size: 10px;
 
   }
-  #popis{
+
+  #popis {
     top: 3em;
-   
+
 
   }
 
-  #topprodukty div img{
+  #topprodukty div img {
     height: 290px;
-    
+
   }
-  #topprodukty div button{
+
+  #topprodukty div button {
     margin-bottom: 2%;
   }
-  #topprodukty div img{
-      height: 80%;
-   
+
+  #topprodukty div img {
+    height: 80%;
+
   }
-  #topprodukty div h2{
-      font-size: 18px;
+
+  #topprodukty div h2 {
+    font-size: 18px;
   }
-  #topprodukty div h3{
+
+  #topprodukty div h3 {
     font-size: 14px;
   }
-  #topprodukty div p{
+
+  #topprodukty div p {
     font-size: 12px;
   }
-  #topprodukty div button{
+
+  #topprodukty div button {
     font-size: 10px;
   }
-  #footerTop p{
-   font-size: 12px;
-}
+
+  #footerTop p {
+    font-size: 12px;
+  }
 }
 
 /* Top produkty */
-section{
-    margin: 1% 0;
-}
-section hr{
-    border-color: white;
-}
-#topprodukty div h2{
-    margin-top: 10%;
+section {
+  margin: 1% 0;
 }
 
-section h1{
-    text-align: center;
-    text-transform: uppercase;
-    color: 	 #ff3300;
-    font-family: 'Roboto Slab', serif;
-    text-decoration:wavy;
-    margin: 4% 0 1% 0 ;
-    font-size: 36px;
-   
-}
-section p{
-    color: gold;
-    font-size: 26px;
-    font-family: 'Roboto Slab', serif;
-    margin-bottom: 0%;
-    
+section hr {
+  border-color: white;
 }
 
-section div hr{
-   height: 2px;
-   border-width: 2px;
-   border-color: white;
+#topprodukty div h2 {
+  margin-top: 10%;
 }
 
-section div button{
-    margin-top: 6%;
+section h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ff3300;
+  font-family: 'Roboto Slab', serif;
+  text-decoration: wavy;
+  margin: 4% 0 1% 0;
+  font-size: 36px;
 
 }
-section div button.btn:focus{
-    border: none;
-    outline: none;
+
+section p {
+  color: gold;
+  font-size: 26px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 0%;
+
+}
+
+section div hr {
+  height: 2px;
+  border-width: 2px;
+  border-color: white;
+}
+
+section div button {
+  margin-top: 6%;
+
+}
+
+section div button.btn:focus {
+  border: none;
+  outline: none;
 }
 
 /* Footer*/
-#footer{
-    border-radius: 4px;
+#footer {
+  border-radius: 4px;
 }
 
-#footerTop{
-    
-    color: black ;
-    border-radius: 4px;
-}
-#footer p{
-    text-align: center;
+#footerTop {
+
+  color: black;
+  border-radius: 4px;
 }
 
-.tab-pane{
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-}
-#footerTop img{
-    padding-top: 40px;
-    padding-bottom: 10px;
-}
-#footerBottom{
-    background-color: white;
-    color: black ;
-    border-radius: 6px;
-    font-family: 'Roboto Slab', serif;
-   
+#footer p {
+  text-align: center;
 }
 
-#footerBottom hr{
-    width: 80%;
-     border-color: yellowgreen;
+.tab-pane {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
 }
-#footerBottom p{
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: larger;
-    font-family: 'Roboto Slab', serif;
-   
+
+#footerTop img {
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
-.tab-content{
-    padding-top: 2%;
+
+#footerBottom {
+  background-color: white;
+  color: black;
+  border-radius: 6px;
+  font-family: 'Roboto Slab', serif;
+
 }
-#footerBottom ul li a:hover{
-   text-transform: uppercase;
-   color: green;
-   text-decoration: none;
-   font-family: 'Roboto Slab', serif;
+
+#footerBottom hr {
+  width: 80%;
+  border-color: yellowgreen;
 }
-#footerTop p{
-    padding: 1% 0;
-    font-family: 'Roboto Slab', serif;
+
+#footerBottom p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: larger;
+  font-family: 'Roboto Slab', serif;
+
 }
-#footerTop div{
-    margin-bottom: 1%;
+
+.tab-content {
+  padding-top: 2%;
+}
+
+#footerBottom ul li a:hover {
+  text-transform: uppercase;
+  color: green;
+  text-decoration: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+#footerTop p {
+  padding: 1% 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+#footerTop div {
+  margin-bottom: 1%;
 }
 
 
@@ -313,14 +370,14 @@ section div button.btn:focus{
 
 /* JUMP */
 
- h2 span {
+h2 span {
   margin-bottom: 4%;
   position: relative;
   top: 20px;
   display: inline;
   -webkit-animation: bounce 0.8s ease infinite alternate;
   font-size: 80px;
-  
+
   color: #006699;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
     0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
