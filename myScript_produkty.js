@@ -68,13 +68,14 @@ $(document).ready(function () {
   /*-- Pocitadlo kosika po nacitani stranky --*/
   function pocitadlo() {
     let kosik = [];
-    if(JSON.parse(localStorage.getItem("produkty")) === null){
-      // kosik.length = 0
-      $(`#pocitadlo`).html(kosik);
+    if (JSON.parse(localStorage.getItem("produkty")) === null) {
+      kosik.length = 0;
+      $(`#pocitadlo`).html(kosik.length);
     }
-    $(`#pocitadlo`).html(kosik.length);
-    // console.log(kosik.length);
-  }
+    else{
+      kosik = JSON.parse(localStorage.getItem("produkty"));
+      $(`#pocitadlo`).html(kosik.length);
+  }}
   pocitadlo();
 
   /*-- Na sklade show/hide --*/
