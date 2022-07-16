@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Detail</title>
+  <title>Košík</title>M</title>
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -25,12 +25,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
   <!-- Custom Css -->
-
-  <link rel="stylesheet" type="text/css" href="detail.css">
-
-
-
-
+  <link rel="stylesheet" type="text/css" href="cart.css">
 
 </head>
 
@@ -43,39 +38,57 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
-        </button>
-        <a id="logo" class="navbar-brand" href="eshop.html">Wint-eshop</a>
+        </button><a id="logo" class="navbar-brand" href="eshop.html">Wint-eshop</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="products.html">Products</a></li>
-          <li class="active"><a href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span><span
-                id="pocitadlo"></span></a></li>
-
         </ul>
         <div>
         </div>
   </nav>
 
-  <article class="container">
-    <div class="row" id="detail"></div>
-  </article>
+  <section>
+    <div class="container" id="kosik1">
+      <div class="row">
+        <table id="tabulka1">
+          <tr>
+            <th>#</th>
+            <th>Názov</th>
+            <th>Počet</th>
+            <th>Cena</th>
+            <th>Zmazať</th>
+          </tr>
 
-  <!---Nav transform/po srcolovani --->
-  <!-- <script>
-    $(document).ready(function () {
-      $(window).scroll(function () {
-        if ($(this).scrollTop() > 50) {
-          $('#mainNav').addClass('solid');
-        } else {
-          $('#mainNav').removeClass('solid');
-        }
-      });
-    });
-  </script> -->
+        </table>
+        <form class="container"></form>
+        <div class="form-row">
+          <div class="col-md-6 col-sm-6" style="margin: 3% 0;text-align: center;">
+            <label>BezDPH:</label> <input id="spoluBezDph" type="text" readonly>
+          </div>
+          <div class="col-md-6 col-sm-6" style="margin: 3% 0;text-align: center;">
+            <label>SPOLU:</label> <input id="spolu" type="text" readonly><br>
+          </div>
+        </div>
 
+        <div class="form-row">
+          <div class="form-check col-md-4 " style="text-align: center;">
+            <a href="order.html"><button id="button1" class="btn btn-primary">Go to order...</button></a>
+          </div>
 
-  <script src="myScript_detail.js"></script>
+          <div class="form-check col-md-4 " style="text-align: center;">
+            <button id="button2" class="btn btn-warning ">Delete all</button>
+          </div>
+          <div class="form-check col-md-4 " style="text-align: center;">
+            <button id="button3" class="btn btn-warning ">Delete item</button>
+          </div>
+        </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script src="myScript_cart.js"></script>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
