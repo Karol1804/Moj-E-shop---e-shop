@@ -7,6 +7,12 @@ $(document).ready(function () {
       $(`#art${i + 1} h3`).html(produkty[i].nazov1);
       $(`#img${i + 1}`).attr("src", produkty[i].img)
     }
+
+  produkty = JSON.parse(localStorage.getItem("produkty"));
+
+  // for (let i = 0; i < produkty.length; i++) {
+  //   $('#prod').append(`<tr><td>${produkty[i].id}</td><td>${produkty[i].nazov}</td><td><input id="pocet${i}" style="width: 15%;" type="number" min=1 class=number name="pocet" value="${produkty[i].pocet}"></td><td id="aktcena${i}">${produkty[i].cena * produkty[i].pocet}</td><td><input id="checkBox${i}" class=checkBox type="checkbox"></td></tr>`);
+  // }
   })
 
   /*-- Search by name--*/
